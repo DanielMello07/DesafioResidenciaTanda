@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->id();
-            $table->string('nameCompleto'); // Obrigatório por padrão
-            $table->string('email')->unique(); // Obrigatório e Único
-            $table->string('telefone')->nullable(); // Opcional (nullable)
-            $table->timestamps(); // Cria o created_at (Data de Cadastro automática)
+            $table->string('nameCompleto');
+            $table->string('email')->unique(); 
+            $table->string('telefone')->nullable(); 
+            $table->timestamps(); 
         });
     }
 

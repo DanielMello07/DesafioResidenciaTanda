@@ -6,7 +6,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Gerenciador de Clientes</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
+
+    <style>
+        /* Aumenta o tamanho do texto e o espaço interno dos botões */
+        .paginacao .page-link {
+            font-size: 1.2rem; 
+            padding: 10px 20px; 
+            border-radius: 8px;
+            margin: 0 3px; 
+        }
+        
+        
+        .paginacao .page-item.active .page-link {
+            background-color: #0d6efd; 
+            border-color: #0d6efd;
+        }
+    </style>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
             <div class="container">
@@ -31,9 +48,12 @@
     
 
     <div class="container mt-4">
-        @yield('content') </div>
+        @yield('content') 
+    </div>
 
-    <footer class="bg-dark text-white pt-4 pb-2 mt-5">
+    <br><br><br>
+
+    <footer class="bg-dark text-white pt-4 pb-2 mt-auto mt-5">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-12">
