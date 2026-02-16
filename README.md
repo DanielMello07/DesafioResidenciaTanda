@@ -41,12 +41,14 @@ composer install
 ### 3. Configração do ambiente
 1. Na raiz do projeto, renomeie o arquivo .env.example para .env.
 2. Abra o arquivo .env e configure as credenciais do seu banco de dados local (MySQL do XAMPP):
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=gerenciadorDeClientes
-    DB_USERNAME=root
-    DB_PASSWORD=
+```Bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=gerenciadorDeClientes
+DB_USERNAME=root
+DB_PASSWORD=
+```
 * **Importante:** Crie manualmente o banco de dados chamado gerenciadorDeClientes no seu **phpMyAdmin** antes de seguir para o próximo passo.
 ### 4. Configurar a Aplicação
 Execute os comandos para gerar a chave de segurança e criar as tabelas no banco de dados, no terminal:
