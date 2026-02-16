@@ -23,12 +23,12 @@ Para rodar este projeto, você precisará de:
 1.  **XAMPP** (ou servidor local com PHP 8.2+ e MySQL) instalado.
 2.  **Composer** instalado.
 3.  **Editor recomendado:** [Visual Studio Code](https://code.visualstudio.com/).
-        Com as seguintes extensões:
+    Com as seguintes extensões:
     
-            * **[Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack):** Um pacote essencial que inclui suporte a rotas, visualização de Blade e snippets.
-            * **[Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade):** Adiciona destaque de sintaxe e preenchimento automático para arquivos `.blade.php`.
-            * **[PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense):** Oferece inteligência de código avançada para PHP.
-            * **[Bootstrap Icons](https://marketplace.visualstudio.com/items?itemName=holmesal.bootstrap-icons-snippets):** Facilita o uso dos ícones que aplicamos na interface.
+    * **[Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack):** Um pacote essencial que inclui suporte a rotas, visualização de Blade e snippets.
+    * **[Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade):** Adiciona destaque de sintaxe e preenchimento automático para arquivos `.blade.php`.
+    * **[PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense):** Oferece inteligência de código avançada para PHP.
+    * **[Bootstrap Icons](https://marketplace.visualstudio.com/items?itemName=holmesal.bootstrap-icons-snippets):** Facilita o uso dos ícones que aplicamos na interface.
 
 ## 🚀 Como Instalar e Executar
 
