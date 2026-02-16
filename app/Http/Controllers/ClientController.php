@@ -19,6 +19,7 @@ class ClientController extends Controller
                             ->orWhere('email', 'like', "%{$search}%");
             })
             ->orderBy('id', 'desc') 
+            ->paginate(10)
             ->withQueryString(); // Mantém os parâmetros de busca na URL ao trocar de página
         return view('index', compact('clients', 'search'));
     }
