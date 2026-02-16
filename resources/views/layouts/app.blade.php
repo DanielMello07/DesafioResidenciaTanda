@@ -48,6 +48,8 @@
     
 
     <div class="container mt-4">
+        {{-- O @yield define um espaço onde o conteúdo das outras páginas será injetado --}}
+        {{-- Aqui foi utilizado para inserir o cabeçalho e o rodapé em todas as páginas --}}
         @yield('content') 
     </div>
 

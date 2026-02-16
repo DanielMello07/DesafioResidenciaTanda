@@ -7,9 +7,10 @@
                 <div class="card shadow-sm"> 
                     <div class="card-body">
                         <form action="{{ route('clients.store') }}" method="POST">
-                            @csrf 
+                            @csrf {{-- Token de segurança obrigatório para formulários POST no Laravel --}}
                             <div class="mb-3">
                                 <label>Nome Completo</label>
+                                {{-- value="{{ old('nameCompleto') }}" mantém o que o usuário digitou caso a validação falhe --}}
                                 <input type="text" name="nameCompleto" class="form-control border-dark @error('nameCompleto') is-invalid @enderror" value="{{old('nameCompleto')}}" required>
                                 @error('nameCompleto')
                                     <div class="invalid-feedback">
